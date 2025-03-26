@@ -1,0 +1,58 @@
+Questions:
+
+Q1. Find the total number of rows in each table of the schema?
+
+Q2. Find the total number of movies released each year? How does the trend look month wise? (Output expected)
+
+/* Output format for the first part:
+
++---------------+-------------------+
+| Year			|	number_of_movies|
++-------------------+----------------
+|	2017		|	2134			|
+|	2018		|		.			|
+|	2019		|		.			|
++---------------+-------------------+
+
+
+Output format for the second part of the question:
++---------------+-------------------+
+|	month_num	|	number_of_movies|
++---------------+----------------
+|	1			|	 134			|
+|	2			|	 231			|
+|	.			|		.			|
++---------------+-------------------+ */
+
+Q3. How many movies were produced in the USA or India in the year 2019??
+
+Q4. Find the unique list of the genres present in the data set?
+
+Q5.Which genre had the highest number of movies produced overall?
+
+Q6. How many movies belong to only one genre?
+
+Q7.What is the average duration of movies in each genre? 
+-- (Note: The same movie can belong to multiple genres.)
+
+
+/* Output format:
+
++---------------+-------------------+
+| genre			|	avg_duration	|
++-------------------+----------------
+|	thriller	|		105			|
+|	.			|		.			|
+|	.			|		.			|
++---------------+-------------------+ */
+
+Q8.What is the rank of the ‘thriller’ genre of movies among all the genres in terms of number of movies produced? 
+-- (Hint: Use the Rank function)
+
+
+/* Output format:
++---------------+-------------------+---------------------+
+| genre			|		movie_count	|		genre_rank    |	
++---------------+-------------------+---------------------+
+|drama			|	2312			|			2		  |
++---------------+-------------------+---------------------+*/
